@@ -1,0 +1,64 @@
+@charset "utf-8";
+.swiper-container {
+	clear: both;
+}
+
+
+/* 定义首页功能按钮列表 */
+.mui-collapse-content span {
+	display: inline-block;
+	width: 22vw;	/* 原本为15 */
+	height: 25vw;		/* 原本为16 */
+	background: #FFFFFF;
+	font-size: 4vw;	/* 定义文字大小 */
+	white-space: nowrap;
+	border-radius: 5px;		/* 定义圆角边框 */
+	margin: 0.5vw 0.1vw;	/* 定义颜色框间距，原本为0 0.1*/
+	position: relative;
+	padding: 3% 0 0 0;	/* 定义内边距 */
+	top: 0.1vw;		/* 原本数值为-5px */
+}
+
+.mui-table-view-cell.mui-collapse .mui-collapse-content {
+	padding: 8px 1vw;
+}
+
+.mui-collapse-content span:nth-of-type(2) {
+	/* background-image: url(../../images/001.png); */
+	background: #FFFFFF;
+}
+
+.mui-collapse-content span:nth-of-type(3) {
+	background: #FFFFFF;
+}
+
+.mui-collapse-content span:nth-of-type(4) {
+	background: #FFFFFF;
+}
+
+
+/* 从nth-of-type5-9为自定义的 */
+.mui-collapse-content span:nth-of-type(5) {
+	background: #FFFFFF;
+}
+
+.mui-collapse-content span:nth-of-type(6) {
+	background: #FFFFFF;
+}
+
+
+/* 定义颜色框中的图片大小 */
+.mui-collapse-content img {
+	width: 12vw;
+	height: 12vw;
+}
+
+
+
+
+.swiper-slide img {
+	width: 100%;
+	height: 40vw;		/* 原本数值为auto */
+	max-height: 320px;
+	/*max-height: 168px;*/
+}
